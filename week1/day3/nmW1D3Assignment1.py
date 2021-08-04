@@ -1,6 +1,6 @@
 num1 = int(input('Please enter a number\n'))
-num2 = int(input('Please enter a second number\n'))
 opera = input('Please enter an operand + , - , * , /\n')
+num2 = int(input('Please enter a second number\n'))
 
 
 # print(num1,num1,opera)
