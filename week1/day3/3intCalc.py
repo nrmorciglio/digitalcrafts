@@ -6,8 +6,6 @@ print('This calculator is designed to compute up to three numbers. You will be a
 num1 = int(input('Please enter your first number\n'))
 op1 = input('enter an operation: + , - , * , /\n')
 num2 = int(input('Please enter your second number\n'))
-# op2 = input('enter another operation: + , - , * , /\n')
-# num3 = int(input('Please enter your third number\n'))
 
 if op1 == '+':
     print(num1+num2)
