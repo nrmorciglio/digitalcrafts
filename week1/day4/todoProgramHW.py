@@ -20,7 +20,7 @@ while mainMenuResponse != 'q':
         addTask = input(
             "Please enter the new task you would like to add.\n    Example entry: wash dog\n\n")
         addPrio = input(
-            "Please enter the priority of the task you would like to add (high, medium, low).\n    Example entry: high\n\n")
+            "Please enter the priority of the task you would like to add (high, medium, low).\nExample entry: 'high'\n\n")
         newTask = (addTask + ' ' + addPrio)
         taskList.append(newTask)
 
